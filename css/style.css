@@ -10,13 +10,20 @@ header {
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-<<<<<<< HEAD
-=======
 }
 
 h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
+}
+
+.advertise-text {
+    color: #f8df9d;
+    text-align: right;
+}
+
+.header-img {
+    float: right;
 }
 
 .whitebox {
@@ -32,12 +39,9 @@ section {
 
 section h2 {
     text-transform: uppercase;
-    
-    
 }
 
 section h6 {
-
     color: #999999;
     font-size: 16;
     font-weight: 200;
@@ -46,15 +50,15 @@ section h6 {
 
 section h4 {
     font-size: 16px;
->>>>>>> 37e4a60242479fe5a4e4d4019da412184a3e3e91
 }
 
 nav {
     z-index: 1000;
     position: relative;
+    padding-top: 15px;
 }
 
-nav-bg {
+.nav-bg {
     background: #f3f3f3;
 }
 
@@ -111,40 +115,32 @@ nav ul ul li {
 	position: relative;
 }
 
+.submenu {
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.submenu-text {
+    font-size: 12px;
+    color: black;
+}
+
 h2 span {
-    color:#ff9900;
+    color:#ecb512;
 }
 
 .btn-warning {
     color: #ffffff !important;  
-<<<<<<< HEAD
-} 
-
-.nav-item-1 a:hover{
-    color:#ffffff;
+    background-color: #ecb510;
 }
 
-.item{
-    width:200px;
-    text-align:center;
-    display:block;
-    background-color: transparent;
-    border: 1px solid transparent;
-    margin-right: 10px;
-    margin-bottom: 1px;
-    float:left;
-  }
- 
-  .image-flex {
-    display: flex;
-    justify-content: center;
-  }
-=======
+
+.top-whitebox {
+    margin-top: -100px;
+    margin-bottom: 30px;
 }
 
 #whats-in-pangasinan {
     background-color: #f2f2f2;
-    
 }
 
 #whats-in-pangasinan h2 {
@@ -171,4 +167,3 @@ h2 span {
     font-size: 12px;
 }
 
->>>>>>> 37e4a60242479fe5a4e4d4019da412184a3e3e91
