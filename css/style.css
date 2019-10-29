@@ -10,6 +10,43 @@ header {
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+<<<<<<< HEAD
+=======
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.whitebox {
+    box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.05);
+    display: block;
+    overflow: hidden;
+    padding: 40px 30px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    text-transform: uppercase;
+    
+    
+}
+
+section h6 {
+
+    color: #999999;
+    font-size: 16;
+    font-weight: 200;
+  
+}
+
+section h4 {
+    font-size: 16px;
+>>>>>>> 37e4a60242479fe5a4e4d4019da412184a3e3e91
 }
 
 nav {
@@ -80,6 +117,7 @@ h2 span {
 
 .btn-warning {
     color: #ffffff !important;  
+<<<<<<< HEAD
 } 
 
 .nav-item-1 a:hover{
@@ -101,3 +139,36 @@ h2 span {
     display: flex;
     justify-content: center;
   }
+=======
+}
+
+#whats-in-pangasinan {
+    background-color: #f2f2f2;
+    
+}
+
+#whats-in-pangasinan h2 {
+    margin-bottom: 70px;
+}
+
+#whats-in-pangasinan h4 {
+    margin-top: 30px;
+}
+
+#whats-in-pangasinan p {
+    color: #999999;
+}
+
+#whats-in-pangasinan .btn {
+    margin-top: 60px;
+}
+
+#food-images h4 {
+    margin-top: 30px;
+}
+
+#food-images h6 {
+    font-size: 12px;
+}
+
+>>>>>>> 37e4a60242479fe5a4e4d4019da412184a3e3e91
