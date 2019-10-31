@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+header {
+    padding: 20px 0;
+}
+
+header li {
+    display: inline;
+    text-decoration: none;
+}
+ 
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.advertise-text {
+    color: #f8df9d;
+    text-align: right;
+}
+
+
+.whitebox {
+    box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.05);
+    display: block;
+    overflow: hidden;
+    padding: 40px 30px;
+}
+
+
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    text-transform: uppercase;
+}
+
+section h6 {
+    color: #999999;
+    font-size: 16;
+    font-weight: 200;
+}
+
+section h4 {
+    font-size: 16px;
+}
+
+nav {
+    z-index: 1000;
+    position: relative;
+    padding-top: 15px;
+}
+
+.nav-bg {
+    background: #f3f3f3;
+}
+
+.yellow-bg {
+    color: #ffffff;
+    background-color:#ff9900;
+}
+
+.nav-home {
+    margin-left: 250px;
+}
+
+.sub-nav-bg {
+    background: white;
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+
+nav li a {
+    text-decoration: none;
+    color:#666666;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+li a.active{
+    font-weight: bold;
+    color:#ff9900;
+}
+ 
+nav ul {
+	position: relative;
+    list-style-type: none;
+}	
+
+nav ul li {
+	display:inline-block;
+}
+
+nav a:hover { 
+    color:  #ff9900;
+}
+
+nav ul ul {
+	display: none;
+	position: absolute; 
+}	
+
+nav ul li:hover > ul {
+	display:inherit;
+}	
+
+nav ul ul li {
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+.submenu {
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.submenu-text {
+    font-size: 12px;
+    color: black;
+}
+
+.jumbotron-height {
+    height: 550px;
+}
+
+h2 span {
+    color:#ecb512;
+}
+
+.btn-warning {
+    color: #ffffff !important;  
+    background-color: #ecb510;
+}
+
+.top-whitebox {
+    margin-top: -100px;
+    margin-bottom: 30px;
+}
+
+#whats-in-pangasinan {
+    background-color: #f2f2f2;
+}
+
+#whats-in-pangasinan h2 {
+    margin-bottom: 70px;
+}
+
+#whats-in-pangasinan h4 {
+    margin-top: 30px;
+}
+
+#whats-in-pangasinan p {
+    color: #999999;
+}
+
+#whats-in-pangasinan .btn {
+    margin-top: 60px;
+}
+
+#food-images h4 {
+    margin-top: 30px;
+}
+
+#food-images h6 {
+    font-size: 12px;
+}
+
+#latest-news p {
+    color: #999999;
+    line-height: 35px;
+}
+
+#latest-news .read-more {
+    color: #ecb510;
+}
+
+li {
+    display: inline;
+    text-decoration: none;
+}
+
+
+.sprite-img {
+   float: center;
+    padding-left: 100px;
+}
+
+
+
+.img-top-5 {
+    margin-top: 30px;
+}
+
+.sprite-img-1 {
+    width: 106px;
+    height: 98px;
+    outline:none;
+    border: none;
+}
+
+.sprite-img-2 {
+    width:83px;
+    height: 96px;
+}
+
+.sprite-img-3 {
+    width:82px;
+    height: 94px;
+}
+
+.sprite-img-4 {
+    width: 142px;
+    height: 97px;
+}
+
+.sprite-img-5 {
+	width: 105px;
+	height: 94px;
+}
+
+.sprite-img-6 {
+	width: 99px;
+	height: 99px;
+}
+
+.sprite-img-7 {
+	width: 93px;
+	height: 77px;
+}
+
+.sprite-img-8 {
+	width: 127px;
+	height: 98px;
+}
+
+.vertical-menu {
+    width: 240px; 
+    position: absolute;
+    z-index: 1000;
+}
+  
+.vertical-menu a {
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid #f3f3f3;
+    display: block; 
+    padding: 10px; 
+    font-size: 12px;
+    color: black;
+    text-decoration: none; 
+}
+  
+.vertical-menu a:hover {
+    color: #ff9900;
+}
+  
+.vertical-menu a.active {
+    background-color: #ff9900;
+    text-decoration: none;
+    color:#ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.search-bar {
+    min-height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: left;
+    margin-left: 200px;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.search-bar form {
+    width: 100%;
+    max-width: 50%;
+}
+
+.search-bar form .inner-form .left { 
+    display: flex;
+}
+
+.search-bar form .inner-form .input-wrap {
+    background: #fff;
+    height: 80px;
+    position: relative;
+    padding: 20px 25px 20px 25px;
+}
+
+.search-bar form .inner-form .input-wrap .input-field label {
+    font-size: 12px;
+    display: block;
+    text-align: left;
+    font-weight:bold;
+    color: #ecb510;
+}
+
+.search-bar form .inner-form .input-wrap .input-field input {
+    font-size: 15px;
+    color: #333;
+    background: transparent;
+    width: 100%;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+    padding: 5px 0;
+}
+
+.search-bar form .inner-form .input-wrap .input-field input.placeholder {
+    color: #808080;
+}
+
+.search-bar form .inner-form .input-wrap .input-field input:-moz-placeholder {
+    color: #808080;
+}
+
+.search-bar form .inner-form .input-wrap .input-field input::-webkit-input-placeholder {
+    color: #808080;
+}
+
+.search-bar form .inner-form .input-wrap .input-field input.hover, .search-bar form .inner-form .input-wrap .input-field input:focus {
+    box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.05);
+    outline: 0;
+}
+
+.search-bar form .inner-form .input-wrap.first  {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    border-radius: 3px 0 0 3px;
+}
+
+.search-bar form .inner-form .input-wrap.second, .input-wrap.third {
+    min-width: 262px;
+    border-radius: 0 3px 3px 0;
+    border-left: 1px solid #e5e5e5;
+}
+
+.card-img{
+    padding:5px;
+}
+
+#business-section {
+    background-color: #f2f2f2; 
+    margin-top: -700px;
+    height: 800px;
+}
+
+#business-section h4 {
+    margin-top: 680px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+#professional-services img{
+    margin-bottom: 50px;
+}
+
+
+#professional-services h6 , #explore-section h6, #open-jobs h6{
+    margin-bottom: 30px;
+}
+
+.imageHolder {
+    position: relative;
+}
+
+.imageHolder .caption {
+    padding: 10px;
+    position: absolute;
+    top: 70%;
+    width: 270px;
+    height: 50px;
+    bottom: 0px;
+    left: 15px;
+    color: #ffffff;
+    background:#ecb510;
+    text-align:center;
+    font-weight:bold;
+    font-size: 20px;
+  }
+
+.open-jobs-span{
+    font-family: 'Oswald', sans-serif;
+    color:#000000;
+    line-height: 40px;
+}
+
+#open-jobs .col-md-6 {
+    margin-bottom: 20px;
+}
+
+#open-jobs .col-md-6 {
+    padding: 15px;
+    height: 250px;
+    background-color: #f2f2f2; 
+}
+
+.footer-nav-bg {
+    background-color: #242c2f;
+}
+
+footer li a {
+    text-align: center;
+    color: #5b6063;
+}
+
+footer li a:hover {
+    color: white;
+}
+
+.footer-bg {
+    background-color: #171c1f;
+}
+
+footer li a.active{
+    color:#e3ae10;
+}
+
+#pangasinan-section {
+    background-color: #f2f2f2; 
+    height: 520px;
+}
+
+#pangasinan-section h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#pangasinan-section p {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 10px;
+}
